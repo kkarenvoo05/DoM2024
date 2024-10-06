@@ -1,0 +1,101 @@
+button {
+    background-color: #9B174F; /* Dark background */
+    color: #fff; /* White text */
+    font-size: 30px; /* Larger font size */
+    font-weight: bold; /* Bold text */
+    padding: 25px 50px; /* Increased padding for bigger buttons */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out, background-color 0.2s ease-in-out; /* Smooth transition for hover effects */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 20px; /* Space between buttons */
+}
+
+button:hover {
+    background-color: #EE4C7D; /* Change to a lighter background on hover */
+    color: #fff; /* Keep text white on hover */
+    transform: translateY(-10px); /* Lift the button by 10px */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Stronger shadow to enhance the lifting effect */
+}
+
+button:active {
+    background-color: #5C001D; /* Darker background on click */
+    transform: translateY(-5px); /* Lower the button slightly on click */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* Adjust shadow on click */
+}
+
+button:focus {
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.5); /* Custom focus outline */
+}
+
+/* Add a larger gap between the text and buttons */
+.App-header p:last-of-type {
+    margin-bottom: 30px; /* Increased space between the last paragraph and buttons */
+}
+
+/* App.css */
+
+/* General fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Staggered fade-in classes */
+.fade-in-1,
+.fade-in-2,
+.fade-in-3,
+.fade-in-4 {
+    opacity: 0; /* Initially hidden */
+}
+
+.fade-in-1 {
+    animation: fadeIn .5s ease-in forwards;
+}
+
+.fade-in-2 {
+    animation: fadeIn .5s ease-in forwards;
+    animation-delay: 1s;
+}
+
+.fade-in-3 {
+    animation: fadeIn .5s ease-in forwards;
+    animation-delay: 2.5s;
+}
+
+.fade-in-4 {
+    animation: fadeIn .5s ease-in forwards;
+    animation-delay: 3s;
+}
+
+/* Fade-in from left for buttons */
+.fade-in-left {
+    opacity: 0; /* Initially hidden */
+    transform: translateX(-50px); /* Start from the left */
+    animation: fadeInLeft .3s ease-in forwards;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.fade-in-left-1 {
+    animation-delay: 3.1s;
+}
+
+.fade-in-left-2 {
+    animation-delay: 3.2s;
+}
