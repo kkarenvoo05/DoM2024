@@ -48,7 +48,7 @@ def main():
 
     locations = [""]
     questions = [""]
-    with open('BMTMapping.txt', 'r', encoding='utf-8') as mapping:
+    with open('mapping.txt', 'r', encoding='utf-8') as mapping:
         for line in mapping:
             index, location, question = line.strip().split(" | ")
             locations.append(location)
