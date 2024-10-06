@@ -1,0 +1,178 @@
+/* forms-component.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wdth,wght@0,6..12,100.3,200..1000;1,6..12,100.3,200..1000&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;700&display=swap'); */
+
+:root {
+  --primary-color: #EE4C7D;
+  --secondary-color: #5C001D;
+  --background-color: #E3E2DF;
+  --text-color: #9B174F;
+  --border-color: #E3AFBC;
+  --success-color: #2ecc71;
+  --error-color: #e74c3c;
+  --label-color: #9B174F;
+}
+
+body {
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+}
+
+.forms-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.page-title {
+  color: var(--secondary-color);
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.5em;
+}
+
+.patient-select {
+  margin-bottom: 2rem;
+}
+
+.patient-select label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+  text-align: left;
+  font-size: 0.9em; /* Slightly reduced */
+}
+
+.patient-select select {
+  width: 100%;
+  padding: 0.3rem;
+  border: 1px solid var(--border-color);
+  border-radius: 4px;
+  font-size: 0.8em; /* Slightly reduced */
+}
+
+.section-title {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: var(--secondary-color);
+  text-align: left;
+  font-size: 0.9em; /* Slightly reduced */
+}
+
+.prompts-container {
+  display: flex;
+  gap: 2rem;
+}
+
+.checkbox-list {
+  flex: 1;
+}
+
+.checkbox-item {
+  margin-bottom: 0.3rem;
+  font-size: 0.8em;
+  text-align: left;
+}
+
+.checkbox-item input[type="checkbox"] {
+  margin-right: 0.5rem;
+  vertical-align: middle; /* Align checkbox with text */
+}
+
+.checkbox-item label {
+  color: var(--secondary-color);
+  font-size: 0.9em;
+  vertical-align: middle;
+}
+
+.selected-items {
+  flex: 1;
+  background-color: var(--background-color);
+  color: var(--label-color);
+  padding: 1rem;
+  border-radius: 4px;
+  font-size: 0.8em;
+}
+
+.selected-items h3 {
+  margin-top: 0;
+  color: var(--secondary-color);
+  font-size: 0.9em;
+}
+
+.selected-items ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.selected-items li {
+  background-color: white;
+  color: var(--secondary-color);
+  margin-bottom: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-size: 0.8em;
+}
+
+.submit-button {
+  display: block;
+  width: 200px; /* Set a fixed width */
+  margin: 2rem auto; /* Center the button */
+  padding: 1.0rem;
+  background-color: var(--label-color);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 0.9em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #EE4C7D;
+}
+
+.submit-button:disabled {
+  background-color: var(--border-color);
+  cursor: not-allowed;
+}
+
+.error-message {
+  background-color: var(--error-color);
+  color: white;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+  .forms-container {
+    padding: 1rem;
+  }
+
+  .prompts-container {
+    flex-direction: column;
+  }
+
+  .checkbox-list, .selected-items {
+    width: 100%;
+  }
+  
+  .submit-button {
+    width: 80%; /* Adjust width for smaller screens */
+  }
+}
