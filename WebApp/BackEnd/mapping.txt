@@ -1,0 +1,79 @@
+1 | DG | Date of birth: | What is the date of birth for the recipient? | 2400 | 7 | all
+2 | DG | Sex | What is the sex of the recipient? | 2400 | 7 | all
+3 | DG | Ethnicity | What is the ethnicity of the recipient? | 2400 | 7 | all
+4 | DG | Race | What is the race of the recipient? | 2400 | 7 | all
+5 | DG | Race detail | Unless the recipient's race is not reported or unknown, what is the race detail of the recipient? | 2400 | 7 | ??
+6 | DG | Country of primary residence | What is the country of primary residence for the recipient? | 2400 | 7 | all
+7 | DG | State of residence of recipient | What state does the recipient live in? | 2400 | 7 | close to transplantation
+8 | ?? | NMDP Recipient ID (RID): | What is the NMPD Recipient ID (RID) of the recipient? | 2400 | 7 | all
+9 | DG | Zip or postal code for place of recipient’s residence: | What is the zip or postal code for the recipient's residence? | 2400 | 7 | close to transplantation
+10 | SF | Specify blood type | What is the specific blood type of the recipient? | 2400 | 7 | all
+11 | SF | Specify Rh factor | Specify the Rh factor of the recipient. | 2400 | 7 | all
+12 | CN | Has the recipient signed an IRB / ethics committee (or similar body) approved consent form for submitting research data to the NMDP / CIBMTR? | Has the recipient signed an IRB / ethics committee (or similar body) approved consent form for submitting research data to the NMDP / CIBMTR? | 2400 | 7 | close to transplantation
+13 | ?? | Did the recipient give permission to be directly contacted by CIBMTR for future research? | If the answer to question 12 is yes, did the recipient give permission to be directly contacted by CIBMTR for future research? | 2400 | 7 | close to transplantation
+14 | CN | Date form was signed: | If the answer to question 12 is yes, what date was the consent form signed? | 2400 | 7 | close to transplantation
+15 | CN | Has the recipient signed an IRB / ethics committee (or similar body) approved consent form to donate research blood samples to the NMDP / CIBMTR? | Has the recipient signed an IRB / ethics committee (or similar body) approved consent form to donate research blood samples to the NMDP / CIBMTR? | 2400 | 7 | close to transplantation
+16 | CN | Is the recipient participating in a clinical trial? | Is the recipient participating in a clinical trial? | 2400 | 7 | close to transplantation
+17 | SF | Is a subsequent HCT planned as part of the overall treatment protocol (not as a reaction to post-HCT disease assessment)? | Is a subsequent HCT planned as part of the overall treatment protocol (not as a reaction to post-HCT disease assessment)? | 2400 | 7 | all
+18 | CN,SF | Has the recipient ever had a prior HCT? | Has the recipient ever had a prior HCT? | 2400 | 7 | prior to day 0
+19 | CN,SF | Has the recipient ever had a prior cellular therapy? | Has the recipient ever had a prior cellular therapy? | 2400 | 7 | prior to day 0
+20 | SF | Multiple donors? | Are there multiple donors for the recipient? | 2400 | 7 | close to transplantation
+21 | SF | Specify number of donors | If the answer to question 20 is yes, specify the number of donors. | 2400 | 7 | close to transplantation
+22 | SF | Specify product type | Specify the product type that is being donated. | 2400 | 7 | close to transplantation
+23 | SF | Is the product genetically modified? | Is the product genetically modified? | 2400 | 7 | close to transplantation
+24 | SF | Specify the related donor type | Specify the related donor type. | 2400 | 7 | close to transplantation
+25 | SF | Specify the biological relationship of the donor to the recipient | Specify the biological relationship of the donor to the recipient. | 2400 | 7 | close to transplantation
+26 | SF | Specify unrelated donor type | Specify unrelated donor type. | 2400 | 7 | close to transplantation
+27 | SF | Did NMDP / Be the Match facilitate the procurement, collection, or transportation of the product? | Did NMDP / Be the Match facilitate the procurement, collection, or transportation of the product? | 2400 | 7 | close to transplantation
+28 | SF | Was this donor used for any prior HCTs? | Was this donor used for any prior HCTs? | 2400 | 7 | close to transplantation
+29 | SF | Global Registration Identifier for Donors (GRID) | What is the donor's Global Registration Identifier for Donors (GRID)? | 2400 | 7 | close to transplantation
+30 | ?? | Date of birth | What is the donor's date of birth? | 2400 | 7 | close to transplantation
+31 | SF | Age: | What is the donor's age? | 2400 | 7 | close to transplantation
+32 | SF | Age units | Is the donor's age in months or years? | 2400 | 7 | close to transplantation
+33 | SF | Sex | What is the sex of the donor? | 2400 | 7 | close to transplantation
+34 | SF | Donor CMV-antibodies (IgG or Total) | What are the Donor's CMV-antibodies (IgG or Total)? | 2400 | 7 | close to transplantation
+35 | SF | Specify number of products infused from this donor: | Specify the number of products infused from this donor. | 2400 | 7 | close to transplantation
+36 | SF | Specify the number of these products intended to achieve hematopoietic engraftment: | Specify the number of these products intended to achieve hematopoietic engraftment. | 2400 | 7 | close to transplantation
+37 | SF | What scale was used to determine the recipient’s functional status? | What scale was used to determine the recipient’s functional status? | 2400 | 7 | close to transplantation
+38 | SF | Karnofsky Scale (recipient age ≥ 16 years) | If the Karnofsky Scale (recipient's age is greater than or equal to 16 years) was used to determine the recipient’s functional status, what was the performance score prior to the preparative regimen? | 2400 | 7 | close to transplantation
+39 | SF,LB | Recipient CMV-antibodies (IgG or Total) | What are the recipient's CMV-antibodies (IgG or Total)? | 2400 | 7 | close to transplantation
+40 | CN,LB | Has the recipient been infected with COVID-19 (SARS-CoV-2) based on a positive test result at any time prior to the start of the preparative regimen / infusion? | Has the recipient been infected with COVID-19 (SARS-CoV-2) based on a positive test result at any time prior to the start of the preparative regimen / infusion? | 2400 | 7 | close to transplantation
+41 | CN | Did the recipient require hospitalization for management of COVID-19 (SARS-CoV-2) infection? | Did the recipient require hospitalization for management of COVID-19 (SARS-CoV-2) infection? | 2400 | 7 | close to transplantation
+42 | CN | Is there a history of mechanical ventilation? | Is there a history of mechanical ventilation? | 2400 | 7 | close to transplantation
+43 | CN,LB | Is there a history of invasive fungal infection? | Is there a history of invasive fungal infection? | 2400 | 7 | close to transplantation
+44 | CN,LB | Were there any co-existing diseases or organ impairment present according to the HCT comorbidity index (HCT-CI)? | Were there any co-existing diseases or organ impairment present according to the HCT comorbidity index (HCT-CI)? | 2400 | 7 | close to transplantation
+45 | CN,LB | Specify co-existing diseases or organ impairment | If there are any co-existing diseases or organ impairment present according to the HCT comorbidity index (HCT-CI), specify the co-existing diseases or organ impairment. | 2400 | 7 | close to transplantation
+46 | LB | Serum ferritin | Is the serum ferritin value known or unknown? | 2400 | 7 | before prep-regimen start
+47 | LB | Serum ferritin value | If the serum ferritin value is known, what is the value? | 2400 | 7 | before prep-regimen start
+48 | LB | Date sample collected: | If the serum ferritin value is known, what date was the serum ferritin sample collected? | 2400 | 7 | before prep-regimen start
+49 | ?? | Upper limit of normal for your institution: | What is the upper limit of normal serum ferritin for your institution? | 2400 | 7 | before prep-regimen start
+50 | LB | Serum albumin | Is the serum albumin value known or unknown? | 2400 | 7 | before prep-regimen start
+51 | LB | Serum albumin value | If the serum albumin value is known, what is the value? | 2400 | 7 | before prep-regimen start
+52 | LB | Serum albumin uom | If the serum albumin value is known, are the serum albumin units of measurement (uom) in g/dL or g/L? | 2400 | 7 | before prep-regimen start
+53 | LB | Date sample collected: | If the serum albumin value is known, what date was the serum albumin sample collected? | 2400 | 7 | before prep-regimen start
+54 | LB | Platelets | Is the platelets value known or unknown? | 2400 | 7 | before prep-regimen start
+55 | LB | Platelets value | If the platelets value is known, what is the value? | 2400 | 7 | before prep-regimen start
+56 | LB | Platelets uom | If the platelets value is known, what is the platelets units of measurement? | 2400 | 7 | before prep-regimen start
+57 | CN | Were platelets transfused ≤ 7 days before date of test? | Were platelets transfused ≤ 7 days before date of test? | 2400 | 7 | before prep-regimen start
+58 | CN | Did the recipient have a prior solid organ transplant? | Did the recipient have a prior solid organ transplant? | 2400 | 7 | before prep-regimen start
+59 | CN | Height at initiation of pre-HCT preparative regimen: | What was the height of the recipient at initiation of pre-HCT preparative regimen? | 2400 | 7 | before prep-regimen start
+60 | CN | Height unit | Is the height reported in units of inches or centimeters? | 2400 | 7 | before prep-regimen start
+61 | CN | Actual weight at initiation of pre-HCT preparative regimen: | What was the actual weight of the recipient at initiation of pre-HCT preparative regimen? | 2400 | 7 | before prep-regimen start
+62 | CN | Weight unit | Is the weight reported in pounds or kilograms? | 2400 | 7 | before prep-regimen start
+63 | CN,SF | Was a pre-HCT preparative regimen prescribed? | Was a pre-HCT preparative regimen prescribed? | 2400 | 7 | close to transplantation
+64 | CN,SF | Classify the recipient’s prescribed preparative regimen | Classify the recipient’s prescribed preparative regimen | 2400 | 7 | close to transplantation
+65 | CN,SF | Was irradiation planned as part of the pre-HCT preparative regimen? | Was irradiation planned as part of the pre-HCT preparative regimen? | 2400 | 7 | close to transplantation
+66 | CN,SF | Drug | What drug was used for the total prescribed cumulative dose for the preparative regimen? | 2400 | 7 | close to transplantation
+67 | CN,SF | Total prescribed dose: | What was the total prescribed dose for the preparative regimen? | 2400 | 7 | close to transplantation
+68 | CN,SF | prep reg prescribed dose uom | What were the units of measurement for the total prescribed dose for the preparative regimen? | 2400 | 7 | close to transplantation
+69 | MA,CN | Date started: | What date did the preparative regimen start? | 2400 | 7 | close to transplantation
+70 | MA,CN | Specify administration | Specify the administration of the preparative regimen. | 2400 | 7 | close to transplantation
+71 | CN,SF | ALG, ALS, ATG, ATS | Were any of the following drugs given in the Peri-Transplant period: ALG, ALS, ATG, ATS? | 2400 | 7 | ??
+72 | CN,SF | Alemtuzumab (Campath) | Was Alemtuzumab (Campath) given in the Peri-Transplant period? | 2400 | 7 | ??
+73 | CN,SF | Defibrotide | Was Defibrotide given in the Peri-Transplant period? | 2400 | 7 | ??
+74 | CN,SF | KGF | Was KGF given in the Peri-Transplant period? | 2400 | 7 | ??
+75 | CN,SF | Ursodiol | Was Ursodiol given in the Peri-Transplant period? | 2400 | 7 | ??
+76 | CN,SF | Was GVHD prophylaxis planned? | Was GVHD prophylaxis planned? | 2400 | 7 | ??
+77 | CN,SF | Specify drugs / intervention | If GVHD prophylaxis was planned, specify the drugs / intervention. | 2400 | 7 | ??
+78 | CN,SF | Is additional post-HCT therapy planned? | Is additional post-HCT therapy planned? | 2400 | 7 | ??
+79 | CN,SF | Specify if the recipient received any of the following | Did the recipient receive any of the following: Blinatumomab (Blincyto), Gemtuzumab ozogamicin (Mylotarg), Inotuzumab ozogamicin (Besponsa), Adienne Tepadina, or Mogamulizumab (Poteligeo)? | 2400 | 7 | ??
